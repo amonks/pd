@@ -1,0 +1,8 @@
+#N canvas 488 852 450 300 10;
+#X obj 43 136 ajm-midiosc;
+#X obj 63 225 sendOSC;
+#X msg 188 122 disconnect;
+#X msg 189 99 connect 255.255.255.255 9000;
+#X connect 0 0 1 0;
+#X connect 2 0 1 0;
+#X connect 3 0 1 0;
